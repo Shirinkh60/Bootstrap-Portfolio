@@ -1,0 +1,40 @@
+body { 
+            background-image: url("../images/bg.png");
+             padding: 0;
+        
+            
+        
+
+        }
+   
+    
+.container{
+    margin:0 auto;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    width:960px;
+   }
+div{
+    width:960px;
+    margin:100px auto;
+}
+header{
+    background:#ffffff;
+    border:2px solid #cccccc;
+    width: 100%;
+     margin:0 auto;
+}
+header::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+.logo{
+    background: #4aaaa5;
+    float: left;
+    
+    padding:10px 0;
+    color:#ffffff;
+}
+nav{
+    float: right;
